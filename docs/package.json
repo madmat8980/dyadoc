@@ -1,0 +1,22 @@
+{
+  "name": "dyadoc",
+  "version": "0.0.1",
+  "description": "Dyad Unofficial Documentation",
+  "main": "index.js",
+  "authors": {
+    "name": "Madmat",
+    "email": ""
+  },
+  "repository": "/dyadoc",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
+  }
+}
