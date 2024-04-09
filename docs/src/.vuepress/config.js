@@ -1,6 +1,8 @@
 const { description } = require('../../package')
 
 module.exports = {
+  // following this doc for github pages: https://vuepress.vuejs.org/guide/deploy.html
+  base: '/dyadoc/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
